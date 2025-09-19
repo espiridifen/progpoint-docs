@@ -1,0 +1,15 @@
+site_name: Progpoint Manual
+theme:
+  name: material
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Español
+      link: /es/
+      lang: es
+
+exclude_docs: |
+  es/
