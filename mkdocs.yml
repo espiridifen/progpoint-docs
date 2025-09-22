@@ -1,15 +1,19 @@
-site_name: Progpoint Manual
+site_name: My Docs
+
 theme:
   name: material
 
-extra:
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: Español
-      link: /es/
-      lang: es
+nav:
+  - Home: index.md
+  - Español: es.md
+  - English: en.md
 
-exclude_docs: |
-  es/
+markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - callouts
