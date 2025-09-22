@@ -1,5 +1,4 @@
-# Please select your language.
+# Please select your language / Por favor, elige tu idioma
 
-[en.md]
-
-[[es.md]]
+[English](en.md)
+[Español](es.md)
